@@ -9,8 +9,7 @@ meta {
  * Window styles
  */
 meta.window {
-    background-color: hsb(47, 18%, 19%);
-    border-color: hsba(47, 5%, 69%, 0.1);
+    background-color: hsb(205, 31%, 25%);
 }
 meta.titlebar {
     color: white;
@@ -19,7 +18,7 @@ meta.titlebar {
 }
 meta.titlebar.inactive {
     color: hsb(47, 5%, 69%);
-    background-color: hsb(51, 18%, 15%);
+    background-color: hsb(205, 31%, 15%);
 }
 
 meta.button {
@@ -58,8 +57,7 @@ meta.accent {
  * Document styles
  */
 meta.document {
-    background-color: hsb(51, 18%, 15%);
-    border-color: hsba(47, 5%, 69%, 0.1);
+    background-color: hsb(205, 31%, 30%);
 }
 
 meta.document.button {
@@ -90,7 +88,7 @@ meta.text.invisible {
 meta.text.selected {
     /* background-color: hsba(0, 0%, 0%, 0.4); */
     /* background-color: hsba(44, 80%, 100%, 0.15); */
-    background-color: hsba(265, 100%, 100%, 0.35);
+    background-color: hsba(255, 60%, 100%, 0.3);
 }
 
 /* Cursor */
@@ -119,26 +117,27 @@ meta.gutter.selected {
 
 /* Keyword */
 keyword {
-    color: hsb(44, 80%, 100%);
+    color: hsb(44, 60%, 100%);
 }
 keyword.annotation {
-   color: hsb(44, 80%, 100%);
+   color: hsb(44, 60%, 100%);
    font-weight: bold;
 }
 keyword.construct {
-   color: hsb(44, 80%, 100%);
+   color: hsb(44, 40%, 100%);
+   font-style: italic;
 }
 keyword.condition {
-   color: hsb(44, 80%, 100%);
+   color: hsb(44, 60%, 100%);
 }
 keyword.modifier {
-   color: hsb(44, 80%, 100%);
+   color: hsb(44, 60%, 100%);
 }
 keyword.operator {
    color: hsb(44, 80%, 100%);
 }
 keyword.self {
-   color: hsb(4, 80%, 100%);
+   color: hsb(0, 55%, 100%);
 }
 
 comment {
@@ -149,24 +148,24 @@ bracket {
    color: hsb(47, 5%, 50%);
 }
 operator {
-   color: hsb(47, 5%, 50%);
+   color: hsb(47, 0%, 75%);
+   font-style: normal;
 }
 
 /* Values */
 value.boolean {
-   color: hsb(13, 74%, 100%);
+   color: hsb(13, 40%, 100%);
 }
 value.null {
-   color: hsb(13, 74%, 100%);
+   color: hsb(13, 40%, 100%);
 }
 value.number {
-   color: hsb(265, 40%, 100%);
+   color: hsb(265, 20%, 100%);
 }
 
 /* Strings */
 string {
    color: hsb(265, 40%, 100%);
-   font-style: italic;
 }
 string.key {
    color: hsb(44, 80%, 100%);
@@ -181,44 +180,45 @@ regex.escaped {
 
 /* Identifiers */
 identifier {
-   color: hsb(47, 5%, 80%);
+   color: hsb(0, 0%, 100%);
 }
 identifier.type {
-   color: hsb(265, 49%, 86%);
+   color: hsb(265, 35%, 100%);
+   font-style: normal;
 }
 identifier.constant {
-   color: hsb(13, 74%, 100%);
+   color: hsb(20, 40%, 100%);
 }
 identifier.method {
-   color: hsb(247, 95%, 80%);
+   color: hsb(160, 10%, 80%);
 }
 identifier.key {
    color: hsb(44, 80%, 100%);
 }
 identifier.argument {
-   color: hsb(347, 95%, 69%);
+   color: hsb(200, 60%, 100%);
 }
 identifier.enumeration {
-   color: hsb(47, 95%, 69%);
+   color: hsb(45, 40%, 80%);
 }
 
 definition.class {
-   color: hsb(147, 95%, 69%);
+   color: hsb(0, 0%, 100%);
 }
 definition.enum {
-   color: hsb(47, 95%, 69%);
+   color: hsb(45, 40%, 80%);
 }
 definition.method {
-   color: hsb(7, 95%, 99%);
+   color: hsb(160, 40%, 80%);
 }
 definition.signal {
-   color: hsb(197, 95%, 69%);
+   color: hsb(160, 40%, 80%);
 }
 definition.variable {
-   color: hsb(110, 90%, 80%);
+   color: hsb(200, 40%, 100%);
 }
 definition.constant {
-   color: hsb(190, 70%, 80%);
+   color: hsb(20, 40%, 100%);
 }
 
 invalid {
@@ -302,7 +302,7 @@ style.attribute.name {
     color: hsb(44, 80%, 100%);
 }
 style.value.number {
-    color: hsb(265, 40%, 100%);
+    color: hsb(265, 30%, 100%);
 }
 style.value.color.hex {
     color: hsb(13, 74%, 100%);

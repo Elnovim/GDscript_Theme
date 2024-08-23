@@ -5,6 +5,6 @@
     "description": "A Nova Theme optimized for syntax highlighting of GDscript (Godot 4)",
     "version": "1.0",
     "categories": ["themes"],
-    "homepage" : "https://github.com/Elnovim/GDscript_Theme",
-    "bugs": "https://github.com/Elnovim/GDscript_Theme/issues",
+    "homepage": "https://github.com/Elnovim/GDscript_Theme",
+    "bugs": "https://github.com/Elnovim/GDscript_Theme/issues"
 }
