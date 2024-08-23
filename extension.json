@@ -1,0 +1,10 @@
+{
+    "identifier": "elnovim.GDscriptTheme",
+    "name": "GDscript_Theme",
+    "organization": "Elnovim",
+    "description": "A Nova Theme optimized for syntax highlighting of GDscript (Godot 4)",
+    "version": "1.0",
+    "categories": ["themes"],
+    "homepage" : "temp",
+    "bugs": "temp/issues",
+}
